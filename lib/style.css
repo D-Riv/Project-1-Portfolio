@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* height: 100%; */
+}
+header {
+  background-image: url(/lib/images/Mask\ Group\ 17.png), url(/lib/images/Component\ 1\ –\ 1.png);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  height: 800px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 150px;
+  font-size: 15px;
+  padding-top: 30px
+} 
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 150px 50px 150px;
+  font-size: 15px;
+  padding-top: 30px;
+  
+} 
+.second {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 500px;
+  margin-right: 250px;
+  font-size: 15px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+.button2 {
+  color: #ffffff;
+  margin-top: 30px;
+  background-color: #A0D334;
+  padding: 10px 20px;
+  border: none;
+}
+h1 {
+  color: #A0D334;
+  font-family: 'Roboto', sans-serifo;
+  
+  /* padding-left: 50px;
+  padding-top: 50px */
+}
+ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+li {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.button1 {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+}
+main {
+  font-family: 'Roboto', sans-serifo;
+}
+.services1 {
+  padding-right: 100px;
+}
+h2 {
+  color: #4A4A4A;
+  margin: 20px 0;
+  
+}
+.service1p {
+  color: #6E6E6E;
+  clear: both;
+}
+.button3 {
+  color: #ffffff;
+  margin-top: 30px;
+  background-color: #A0D334;
+  padding: 10px 30px;
+  border: none;
+}
+.services2 {
+  
+}
+.gridparent1 {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 30px;
+  /* grid-template-rows: 300px 300px; */
+  
+}
+.skills1 {
+  box-shadow: 5px 5px 5px 5px #f0f0f0;
+  padding: 30px;
+
+}
+img {
+  display: inline;
+
+}
+h3 {
+  color: #4A4A4A;
+  float: right;
+}
+.seconds {
+  background-image: url(/lib/images/Video\ pic.png), url(/lib/images/Path\ 2834.png);
+  background-blend-mode: overlay;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.video {
+  color: #ffffff;
+  display: block;
+}
+.playbutton {
+  margin: 0 auto;
+  height: 60px;
+}
+.thirds {
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+.skilldescription {
+  color: #6E6E6E;
+  margin-bottom: 50px;
+}
+.skillgroup {
+  margin: 0 150px 50px 150px;
+}
+.myskills {
+  color: #4A4A4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.circles {
+  height: 130px;
+}
+.xd {
+  padding-left: 50px;
+}
+.effects {
+  padding-right: 50px;
+}
+.fourths {
+  text-align: center;
+  background-image: url(/lib/images/Path\ 2836.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: center;
+  height: 1250px;
+  padding-top: 1px;
+}
+.myportfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  padding: 0 400px;
+  flex-direction: column;
+}
+.fourthp {
+  color: #6E6E6E;
+}
+.fourthportfolio {
+  color: #4A4A4A;
+  display: flex;
+  justify-content: center;
+}
