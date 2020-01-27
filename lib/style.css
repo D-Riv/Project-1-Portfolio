@@ -6,7 +6,7 @@ body {
   /* height: 100%; */
 }
 header {
-  background-image: url(/lib/images/Mask\ Group\ 17.png), url(/lib/images/Component\ 1\ –\ 1.png);
+  background-image: url(/images/Mask\ Group\ 17.png), url(/images/Component\ 1\ –\ 1.png);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ h3 {
   float: right;
 }
 .seconds {
-  background-image: url(/lib/images/Video\ pic.png), url(/lib/images/Path\ 2834.png);
+  background-image: url(/images/Video\ pic.png), url(/images/Path\ 2834.png);
   background-blend-mode: overlay;
   position: relative;
   background-position: center;
@@ -181,7 +181,7 @@ h3 {
 }
 .fourths {
   text-align: center;
-  background-image: url(/lib/images/Path\ 2836.png);
+  background-image: url(/images/Path\ 2836.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -309,7 +309,7 @@ h4 {
   margin-left: 700px;
 }
 .six {
-  background-image: url(/lib/images/Path\ 8198.png);
+  background-image: url(/images/Path\ 8198.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -328,7 +328,7 @@ h4 {
   border: none;
 }
 .final {
-  background-image: url(/lib/images/Rectangle\ 115.png);
+  background-image: url(/images/Rectangle\ 115.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ input {
   margin-top: 10px;
 }
 .contacts {
-  background-image: url(/lib/images/Rectangle\ 115.png);
+  background-image: url(/images/Rectangle\ 115.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -428,4 +428,33 @@ input {
 }
 .contactlist {
   text-align: left;
+}
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    width: 50%;
+    text-align: center;
+  }
+  .first {
+    display: flex;
+    justify-content: center;
+  }
+  .services1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    align-items: flex-start;
+  }
+  .services2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+  }
 }
