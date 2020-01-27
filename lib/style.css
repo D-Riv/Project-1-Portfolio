@@ -71,11 +71,19 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+a:hover {
+  color: #A0D334;
+  border-bottom: 1px solid #A0D334;
+  padding-bottom: 4px;
+}
 .button1 {
   color: #ffffff;
   background-color: transparent;
   border: 1px solid #ffffff;
   padding: 10px 20px;
+}
+button:hover {
+  background-color: #009a00;
 }
 main {
   font-family: 'Roboto', sans-serifo;
@@ -185,7 +193,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 50px;
   padding: 0 400px;
   flex-direction: column;
@@ -197,4 +205,227 @@ h3 {
   color: #4A4A4A;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+.hover {
+  color: #4A4A4A;
+}
+.hover:hover {
+  color: #A0D334;
+  border-bottom: 1px solid #A0D334;
+  padding-bottom: 4px;
+}
+.imagegrid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 5px;
+}
+.portimages1 {
+  height: 320px;
+  width: 280px;
+  justify-self: center;
+  align-self: center;
+}
+.portimages2 {
+  height: 250px;
+  width: 280px;
+  justify-self: center;
+  align-self: center;
+}
+.portimages3 {
+  height: 300px;
+  width: 280px;
+  justify-self: center;
+  align-self: center;
+}
+.portimages4 {
+  height: 200px;
+  width: 280px;
+  justify-self: center;
+  align-self: center;
+}
+.portimages5 {
+  height: 330px;
+  width: 280px;
+  justify-self: center;
+  align-self: start;
+}
+.portimages6 {
+  height: 250px;
+  width: 280px;
+  justify-self: center;
+  align-self: center;
+}
+.fifths {
+  text-align: left;
+  height: 500px;
+}
+.soloh2 {
+  text-align: center;
+}
+.clients {
+  color: #6E6E6E;
+  padding: 0 380px;
+  margin-bottom: 50px;
+
+}
+.clientgrid {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  height: 200px;
+}
+.clients1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #6E6E6E;
+  box-shadow: 5px 5px 5px 5px #f0f0f0;
+  width: 350px;
+  clear: both;
+  padding-top: 50px;
+}
+.random {
+  display: flex;
+  padding-top: 50px;
+}
+.clientimage {
+  height: 70px;
+}
+.h4 {
+  color: #6E6E6E;
+}
+h4 {
+  color: #4A4A4A;
+  padding-left: 10px;
+}
+.line {
+  border: 2px solid #A0D334;
+  margin-top: 100px;
+  width: 30px;
+  margin-left: 700px;
+}
+.six {
+  background-image: url(/lib/images/Path\ 8198.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: #4A4A4A;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hirebutton {
+  color: #ffffff;
+  margin-left: 200px;
+  background-color: #A0D334;
+  padding: 10px 30px;
+  border: none;
+}
+.final {
+  background-image: url(/lib/images/Rectangle\ 115.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serifo;
+}
+.final1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 50px 0 50px;
+}
+.final2 {
+  margin: 50px 50px 0 50px;
+
+}
+.services3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 1px;
+  margin-top: 15px;
+}
+.final3 {
+  margin: 50px 50px 0 50px;
+}
+ .support {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 1px;
+  margin-top: 15px;
+}
+.final4 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 50px 50px 0 50px;
+
+}
+h4 {
+  color: #ffffff;
+}
+.footername {
+  color: #A0D334;
+}
+.footernews {
+  font-size: 10px;
+  margin: 15px 0;
+}
+.question {
+  color: #ffffff;
+  background-color: #A0D334;
+  padding: 10px 30px;
+  border: none;
+}
+input {
+  color: #6E6E6E;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  margin-right: -5px;
+}
+.entity {
+  text-align: center;
+  margin-top: 10px;
+}
+.contacts {
+  background-image: url(/lib/images/Rectangle\ 115.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serifo;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+.border {
+  border-bottom: 2px solid #ffffff;
+  border-width: 1px;
+  padding: 0 10px;
+}
+.contactlistmain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.contactlist {
+  text-align: left;
 }
