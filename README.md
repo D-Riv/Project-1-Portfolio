@@ -1,5 +1,5 @@
 # Personal Portfolio Project #
-This is a static web page project used to demonstrate my ability to structure and design a web page based on a mock up. This allowed me to reiterate what is done in the software development community, working with designer. The porject is built around a personal portfolio.
+This is a static web page project used to demonstrate my ability to structure and design a web page based on a mock up. This allowed me to reinact what is done on the job, working with designers. The project is built around a personal portfolio.
 
 ### Prerequisites ###
 * Browser
