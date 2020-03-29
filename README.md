@@ -9,7 +9,7 @@ This is a static web page project used to demonstrate my ability to structure an
 
 ### Deployment ###
 To deploy the portfolio project utilize the link below.
-[Use this link to my project!](https://d-riv.github.io/Project-1-Portfolio/)
+[Use this link to my project!](https://project-1-portfolio.netlify.com/)
 
 ### Built With ###
 * HTML5
